@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.flower-photo-one{
+    height: auto;
+    width: 100%;
+    position: relative;
+    animation: flowersmove 10s;
+    animation-delay: 2s ;
+}
+@keyframes flowersmove {
+   from {left:0px}
+   to { left:500px}
+}
+
+.flowers-wrapper{
+ display: grid;
+ grid-template-columns: auto auto auto;S
+ gap: none;
+}
+
+.h-1{
+    font-size: 100px;
+    color: #fff;
+    position: absolute;
+    margin-left: 650px;
+  
+}
+
+.flower-1 {
+    opacity: 10px;
+}
+
+.lorem-ipsum-p {
+    color:blueviolet;
+    font-size: 130px;
+}
+
+.lorem{
+    margin-left: 0px;
+    z-index: -1;
+    position:absolute;
+    background-color: plum;
+    height: 100%;
+}
